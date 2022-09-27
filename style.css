@@ -1,0 +1,145 @@
+body {
+  background-repeat: none;
+  background-size: cover;
+  background-color: hsla(200, 40%, 30%, 0.4);
+}
+
+* {
+  color: white;
+  text-transform: capitalize;
+}
+.search {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.cloudId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cloudId > span {
+  font-size: 50px;
+}
+.windSpeedId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.windSpeedId > span {
+  font-size: 50px;
+}
+.HumidityId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.HumidityId > span {
+  font-size: 50px;
+}
+.lowTempId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.lowTempId > span {
+  font-size: 30px;
+}
+.HighTempId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.HighTempId > span {
+  font-size: 30px;
+}
+.NowTempId {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.NowTempId > span {
+  font-size: 30px;
+}
+#tempId {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 25px;
+}
+#cityName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cityName > span {
+  font-size: 50px;
+}
+#container {
+  width: 40%;
+  border-radius: 2rem;
+  background-color: #ed2b33ff;
+  /* background-image: url(https://source.unsplash.com/1600x900?nature,water); */
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.mapouter {
+  position: relative;
+
+  text-align: right;
+  height: 500px;
+  width: 37%;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 60 0px;
+  font-size: 25px;
+}
+
+#city {
+  border: 3px solid #ed2b33ff;
+  border-radius: 1rem;
+  background-color: transparent;
+  font-size: 25px;
+  color: #ed2b33ff;
+  background-color: whitesmoke;
+  margin-right: 0;
+}
+
+#submit {
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  margin-left: 0;
+  margin-right: 25px;
+  color: #ed2b33ff;
+  border: none;
+  padding: 0.5rem 1rem;
+}
+#submit:hover {
+  background-color: #ed2b33ff;
+  color: white;
+}
+#weather {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  display: inline-block;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+}
+.samay {
+  font-size: 50px;
+}
